@@ -3,3 +3,8 @@
 ################################################################################
 
 /.vs
+/RadDataGridTest/.vs/RadDataGridTest/v15
+/RadDataGridTest/RadDataGridTest/bin
+/RadDataGridTest/RadDataGridTest/obj
+/RadDataGridTest/RadDataGridTest/RadDataGridTest.csproj.user
+/RadDataGridTest/RadDataGridTest/AppPackages

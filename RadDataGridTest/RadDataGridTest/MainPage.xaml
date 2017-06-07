@@ -9,6 +9,16 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <telerikGrid:RadDataGrid x:Name="RadDataGrid"/>
+      <telerikGrid:RadDataGrid x:Name="RadDataGrid">
+        <telerikGrid:RadDataGrid.Columns>
+          <telerikGrid:DataGridTemplateColumn Header="Template Column">
+            <telerikGrid:DataGridTemplateColumn.CellContentTemplate>
+              <DataTemplate>
+                <TextBlock Text="Hello" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+              </DataTemplate>
+            </telerikGrid:DataGridTemplateColumn.CellContentTemplate>
+          </telerikGrid:DataGridTemplateColumn>
+        </telerikGrid:RadDataGrid.Columns>
+      </telerikGrid:RadDataGrid>
     </Grid>
 </Page>
